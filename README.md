@@ -11,8 +11,8 @@
   <a aria-label="Versão do Expo" href="https://www.npmjs.com/package/expo-cli/v/3.11.5">
     <img src="https://img.shields.io/badge/expo--CLI-3.11.5-informational?logo=expo"></img>
   </a>
-  <a aria-label="Desafios" href="DESAFIOS.md">
-  	<img src="https://img.shields.io/badge/desafios-OK-blueviolet"></img>
+  <a aria-label="React Native" href="https://img.shields.io/badge/reactnative-OK-blueviolet">
+  	<img src="https://img.shields.io/badge/reactnative-OK-blueviolet"></img>
   </a>
 </p>
 
