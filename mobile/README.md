@@ -1,11 +1,13 @@
 <h1 align="center">Como usar a parte mobile</h1>
 
 ## Instalação
-Para instalar **web** utilize os comandos:
+Para instalar o **mobile** utilize os comandos:
 ```bash
-cd frontend
+yarn global add install expo-cli
+cd mobile
 yarn install
 yarn start
+instale expo no seu celular e scaneie o QRcode que vai aparecer na página e no seu terminal de comando
 ```
 
 ## Pesquisa
