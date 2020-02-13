@@ -1,21 +1,25 @@
-# Overview
-O Frontend é um recurso React-based para comunicar com a api DevRadar (Backend/Nodejs).
-Esta foi criada para servir à 10ª Semana da Omnistack desenvolvida pela Rocketseat.  
-Este projeto foi criado com [Create React App](https://github.com/facebook/create-react-app) utilizando padrões de componentização e responsividade.
+<h1 align="center">Como usar a parte web</h1>
 
-# Desenvolvimento
-## Script
+## Instalação
+Para instalar **web** utilize os comandos:
+```bash
+cd frontend
+yarn install
+yarn start
+```
 
-Neste projeto você pode executar `yarn start`, `yarn test`, `yarn build` e `yarn eject`, porém para unicamente testar a aplicação, execute o comando abaixo:
+## Cadastrar
+![](./static/caddev.png)
 
-### `yarn start`
+Para cadastrar é só preencher as informações, e caso não souber sua latitude e longitude, não se preocupe, pois a aplicação preencherá automaticamente essa informação
 
-Executa o app em modo de desenvolvimento.<br />
-Abra [http://localhost:3000](http://localhost:3000) para ver a aplicação em seu navegador.
+## Para ver os Devs Cadastrados
+![](./static/mostrar.png)
 
-Esta página recarrega automaticamente enquanto você edita os arquivos.<br />
-Você também verá erros de análise (lint) no console.
+Nessa parte da aplicação você poderá ver os devs e também acessar as opções de excluir e editar
 
-## Saiba mais
+## Editar
+![](./static/editar.png)
 
-Você pode obter mais informações sobre os projetos React em [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para editar você deve clicar no lápis no dev a sua escolha e depois mudar as informações desejadas
+
