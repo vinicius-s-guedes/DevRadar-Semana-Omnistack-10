@@ -46,9 +46,11 @@ yarn start
 
 ![](./static/devradar.png)
 
-Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado. Adicione blocos de códigos e, se necessário, screenshots.
+**web:**
+Na versão web, é posível cadastrar um novo desenvolvedor na aplicação e também editar e excluir
 
-_Para mais exemplos, consulte a [Wiki][wiki]._ 
+**Mobile:**
+Na parte mobile, você podera pesquisar por desenvolvedores que estão em um raio de 10km de sua localização, e também ver o github do mesmo, diretamente do aplicativo
 
 
 ## Licença
