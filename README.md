@@ -18,25 +18,22 @@ Esse projeto localiza os desenvolvedor que estão perto de você, tendo a opçã
 ![](./static/omnistack.png)
 
 ## Instalação
-Configure o MongoDB e atualize a string de conexão com seu `User:Senha` no arquivo `index.js`.  
-Para instalar as dependências e executar o **Servidor** (modo desenvolvimento), clone o projeto em seu computador e em seguida execute:
+Configure o MongoDB e atualize a string de conexão(stringdb) no arquivo `backend\src\index.js`. Agora execute os seguintes comando para instalar:
 ```bash
 cd backend
 yarn install
-yarn dev
+yarn nodemon src/index.js
 ```
-Para iniciar o **Frontend** do React utilize os comandos:
+Para iniciar o frontend, basta usar os comandos a seguir. O servidor será iniciado na porta 3000(localhost:3000)
 ```bash
 cd frontend
 yarn install
 yarn start
 ```
-Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido no dia 3 de 5.  
 
-Para testar o **Mobile** do React Native, primeiro coloque o endereço do seu servidor (ou computador) no arquivo `src/services/api.js`, e depois execute os comandos:
+Para iniciar o mobile, você terá que atualizar o ip da sua máquina no arquivo `src/services/api.js`, e depois execute os comandos abaixo:
 ```bash
-# NÃO é preciso executar a linha de baixo caso ja tenha o Expo (CLI) instalado!
-yarn global add install expo-cli
+yarn global add install expo-cli             #caso já tenha o expo instalado no seu pc, não use esse comando
 cd mobile
 yarn install
 yarn start
@@ -46,7 +43,7 @@ yarn start
 
 ![](./static/devradar.png)
 
-**web:**
+**Web:**
 Na versão web, é posível cadastrar um novo desenvolvedor na aplicação e também editar e excluir
 
 **Mobile:**
