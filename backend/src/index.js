@@ -14,7 +14,7 @@ setupWebSocket(server);
 // nessa string você deve adcionar o link que o mongodb libera para acesso ao seu benco de dados
 //No site domongo vá em Cluters -> connect -> connect your aplication
 
-const  stringdb = `mongodb+srv://`;
+const  stringdb = `<>`;
 
 if (stringdb.startsWith('<')){//if que vai verificar se você tirou o <>
   console.error("Você não configurou o MongoDB corretamente!");
